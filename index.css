@@ -1,0 +1,135 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    min-width: 100vw;
+    max-width: 100vw;
+    overflow-x: hidden;
+    background-image: url(https://cdn.sellix.io/static/landing/new/main/main/top-grid.svg);
+   
+}
+p{
+    margin: 0;
+}
+/* header */
+header{
+    max-width: 14440px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    gap: 15px;
+    
+
+}
+header .containerleft{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+header .containerleft  .sellix{
+    
+    padding-left:10px ;
+    
+}
+header .containerleft a{
+    display: flex;
+    justify-content: space-between;
+    
+}
+header .containerleft .pay{
+    
+}
+header .containerright{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+header .containerright .containerright-login{
+    margin-right: 1rem;
+   
+    
+}
+header .containerright .containerright-login .login{
+    color: var(--black5);
+    background-color: var(--white);
+    border: 1px solid var(--black2);
+    box-shadow: 0 1px 2px rgba(18,20,23,.06);
+    font-weight: 500;
+   
+    
+}
+header .containerright .containerright-signup{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+/* section1 */
+section{
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  padding-top: 5rem;
+}
+section .left{
+    width: 50%;
+    height: auto;
+    position: relative;
+    
+}
+section .left h1{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 88px;
+    line-height: 106px;
+    margin-bottom: 1.25rem;
+    letter-spacing: -2px;
+}
+section .left p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 2rem;
+    padding-right: 6rem;
+  
+    
+    
+}
+section .left .bt{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;   
+    gap: 5px;
+    margin-top: 20px;
+}
+section .left .star{
+ 
+ width: 100px;
+    
+}
+
+section .left .logo{
+ 
+ width: 20px;
+    
+}
+section .right img{
+ 
+    position: absolute;
+    height: 100%;
+    max-height: 900px;
+   }
